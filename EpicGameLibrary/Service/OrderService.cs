@@ -31,8 +31,8 @@ namespace EpicGameLibrary.Service
         /// <returns></returns>
         public static IOrderedEnumerable<T> OrderByPropertyName<T>(this IEnumerable<T> set, string key, bool asc)
         {
-            if(asc) return set.OrderBy(x => x.GetType().GetProperty(key).GetValue(x));
-            else return set.OrderByDescending(x => x.GetType().GetProperty(key).GetValue(x));
+            if(asc) return set.OrderBy(x => x.GetValueByName(key));
+            else return set.OrderByDescending(x => x.GetValueByName(key));
         }
     }
 }

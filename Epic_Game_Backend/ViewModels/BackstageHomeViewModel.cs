@@ -7,14 +7,14 @@ namespace Epic_Game_Backend.ViewModels
 {
     public class BackstageHomeViewModel
     {
-        public List<BackstageSingleDataVM> backstageSingleDataVM;
-        public List<BackstageChartLineVM> backstageChartLineVM;
-        public List<BackstageChartLineVMPie> backstageChartLineVMPie;
+        public List<BackstageSingleDataVM> backstageSingleDataVM { get; set; }
+        public List<BackstageChartLineVM> backstageChartLineVM { get; set; }
+        public List<BackstageChartLineVM002> backstageChartLineVM002 { get; set; }
+        public List<BackstageChartLineVMPie> backstageChartLineVMPie { get; set; }
         public int[] monthDataTotalPrice { get; set; }
-        public List<BackstageChartLineVM002> backstageChartLineVM002;
         public int[] monthDataTotalCount { get; set; }
-        public int[] PieData { get; set; }
-        public string[] PieProductName { get; set; }
+        public dynamic[] PieData { get; set; }
+        public dynamic[] PieProductName { get; set; }
     }
     public class BackstageSingleDataVM
     {

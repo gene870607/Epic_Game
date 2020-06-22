@@ -19,7 +19,7 @@ namespace Epic_Game_Backend.Controllers
         // GET: Home
         public ActionResult Index()
         {
-            var allData = backstageHomeBLO.GetAllData();
+            var allData = backstageHomeBLO.GetAllData2();
             foreach (var data in allData.backstageSingleDataVM)
             {
                 ViewBag.Product = data.ProductQuantity;
