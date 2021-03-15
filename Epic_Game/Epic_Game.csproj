@@ -385,6 +385,9 @@
     <Content Include="Content\bootstrap-reboot.css.map" />
     <Content Include="Content\bootstrap-grid.min.css.map" />
     <Content Include="Content\bootstrap-grid.css.map" />
+    <None Include="Properties\PublishProfiles\bsdemoepic - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\bsdemoepic - ReadOnly - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\bsdemoepic - Web Deploy.pubxml" />
     <None Include="Properties\PublishProfiles\EpicGameWeb.pubxml" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
